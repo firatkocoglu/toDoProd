@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(find_dotenv())
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = %@41z92hxp0c=ca4_66_8(=&-+!e-)zla&u#^aah8l*5viipmy
+SECRET_KEY = '%@41z92hxp0c=ca4_66_8(=&-+!e-)zla&u#^aah8l*5viipmy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
