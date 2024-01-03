@@ -86,12 +86,12 @@ WSGI_APPLICATION = 'toDoServer.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todo_db',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '121518Fx5-frt',
+        'HOST': 'to-do-db.cquov6ez33fv.eu-central-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
